@@ -1,3 +1,18 @@
 git clone git@github.com:LucasRodrigues106/github-clone.git
+cd github-clone/
 npm i
 npm run start
+
+como enviar o projeto para o github
+-verificar se o projeto ja tem git
+como verificar? git status
+
+-add arquivos que eu quero salvar
+como fazer isso? git add {nome do arquivo com extensão}
+dica: para add todos os arquivos pode se usar o comando git add .
+
+-dar um nome pro save
+como fazer isso? git commmit -m "ESCREVER UMA FRASE DAS ATIVIDADES QUE EU FIZ"
+
+-enviar o codigo para o github
+como fazer isso? git push origin master
